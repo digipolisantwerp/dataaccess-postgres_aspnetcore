@@ -1,0 +1,32 @@
+{
+	"version": "1.0.0",
+	"description": "Postgres data access for ASP.NET Core 1.0.",
+	"authors": [ "digipolis.be" ],
+	"tags": [ "" ],
+	"projectUrl": "",
+	"licenseUrl": "",
+	"dependencies": {
+        "Npgsql": "2.2.4.1",
+        "Npgsql.EntityFramework": "2.2.4.1"
+	},
+	"frameworks": {
+        "dnx451": {
+            "frameworkAssemblies": {
+                "System.Data": "4.0.0.0"
+            }
+        }
+	},
+	"exclude": [
+		"node_modules",
+		"bower_components",
+		".grunt"
+	],
+    "publishExclude": [
+        "node_modules",
+		"bower_components",
+		"**.xproj",
+		"**.user",
+		"**.vspscc"
+    ]
+}
+
